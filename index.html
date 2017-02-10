@@ -2,12 +2,12 @@
 <html>
 <head>
   <title>Adonis</title>
-  <link rel="stylesheet" type="text/css" href="static/css/index.css">
+  <link rel="stylesheet" type="text/css" href="/adonis/static/css/index.css">
 </head>
 <body>
   <p>Adonis</p>
     <script type="text/javascript">
-      navigator.serviceWorker.register('static/service.js').then(function(reg) {
+      navigator.serviceWorker.register('/adonis/static/service.js').then(function(reg) {
             console.log('scope: ', reg.scope);
         }).catch(function(err) {
             console.log('err: ', err.message);
